@@ -1,0 +1,141 @@
+# -*- coding: utf-8 -*-
+from PySide6 import QtWidgets, QtGui, QtCore
+################################################################################
+## Form generated from reading UI file 'login_window.ui'
+##
+## Created by: Qt User Interface Compiler version 6.5.3
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QDialog, QLabel,
+    QPushButton, QSizePolicy, QTextEdit, QWidget,QLineEdit)
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        if not Dialog.objectName():
+            Dialog.setObjectName(u"Dialog")
+        Dialog.setEnabled(True)
+        Dialog.resize(559, 568)
+        Dialog.setStyleSheet(u"QWidget#Dialog{background-color:qlineargradient(spread:pad, x1:0.199, y1:0.261364, x2:1, y2:1, stop:0 rgba(69, 139, 103, 255), stop:1 rgba(255, 255, 255, 255))}")
+        self.label = QLabel(Dialog)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(130, 70, 311, 51))
+        font = QFont()
+        font.setFamilies([u"MS Shell Dlg 2"])
+        font.setPointSize(22)
+        font.setBold(False)
+        font.setItalic(False)
+        self.label.setFont(font)
+        self.label.setStyleSheet(u"color:rgb(255, 255, 255);\n"
+"font: 75 22pt \"MS Shell Dlg 2\";")
+        self.label.setScaledContents(True)
+        self.label.setAlignment(Qt.AlignCenter)
+        self.label_2 = QLabel(Dialog)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(130, 250, 81, 31))
+        font1 = QFont()
+        font1.setFamilies([u"MS Shell Dlg 2"])
+        font1.setPointSize(12)
+        font1.setBold(False)
+        font1.setItalic(False)
+        self.label_2.setFont(font1)
+        self.label_2.setStyleSheet(u"color:rgb(255, 255, 255);\n"
+"font: 75 12pt \"MS Shell Dlg 2\";")
+        self.label_2.setScaledContents(True)
+        self.label_2.setAlignment(Qt.AlignCenter)
+        self.SESA = QLineEdit(Dialog)
+        self.SESA.setObjectName(u"SESA")
+        self.SESA.setGeometry(QRect(210, 250, 171, 31))
+        self.label_3 = QLabel(Dialog)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(130, 170, 311, 51))
+        font2 = QFont()
+        font2.setFamilies([u"MS Shell Dlg 2"])
+        font2.setPointSize(14)
+        font2.setBold(False)
+        font2.setItalic(False)
+        self.label_3.setFont(font2)
+        self.label_3.setStyleSheet(u"color:rgb(255, 255, 255);\n"
+"font: 75 14pt \"MS Shell Dlg 2\";")
+        self.label_3.setScaledContents(True)
+        self.label_3.setAlignment(Qt.AlignCenter)
+        self.pushButton = QPushButton(Dialog)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(230, 500, 121, 28))
+        self.pushButton.setStyleSheet(u"border-radius:10px;\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 75 10pt \"MS Shell Dlg 2\";")
+        self.label_4 = QLabel(Dialog)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(130, 350, 81, 31))
+        self.label_4.setFont(font1)
+        self.label_4.setStyleSheet(u"color:rgb(255, 255, 255);\n"
+"font: 75 12pt \"MS Shell Dlg 2\";")
+        self.label_4.setScaledContents(True)
+        self.label_4.setAlignment(Qt.AlignCenter)
+        self.label_5 = QLabel(Dialog)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(130, 300, 81, 31))
+        self.label_5.setFont(font1)
+        self.label_5.setStyleSheet(u"color:rgb(255, 255, 255);\n"
+"font: 75 12pt \"MS Shell Dlg 2\";")
+        self.label_5.setScaledContents(True)
+        self.label_5.setAlignment(Qt.AlignCenter)
+        self.YEAR = QLineEdit(Dialog)
+        self.YEAR.setObjectName(u"YEAR")
+        self.YEAR.setGeometry(QRect(210, 300, 171, 31))
+        self.comboBox = QComboBox(Dialog)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(210, 350, 171, 31))
+        self.comboBox.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"font: 75 8pt \"MS Shell Dlg 2\";")
+
+        self.retranslateUi(Dialog)
+
+        QMetaObject.connectSlotsByName(Dialog)
+    # setupUi
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
+        self.label.setText(QCoreApplication.translate("Dialog", u"WELCOME", None))
+        self.label_2.setText(QCoreApplication.translate("Dialog", u"SESA", None))
+        self.label_3.setText(QCoreApplication.translate("Dialog", u"MONTHLY SAP ENTRY", None))
+        self.pushButton.setText(QCoreApplication.translate("Dialog", u"LOG IN", None))
+        self.label_4.setText(QCoreApplication.translate("Dialog", u"Month", None))
+        self.label_5.setText(QCoreApplication.translate("Dialog", u"Year", None))
+        self.comboBox.setItemText(0, "")
+        self.comboBox.setItemText(1, QCoreApplication.translate("Dialog", u"Jan", None))
+        self.comboBox.setItemText(2, QCoreApplication.translate("Dialog", u"Feb", None))
+        self.comboBox.setItemText(3, QCoreApplication.translate("Dialog", u"Mar", None))
+        self.comboBox.setItemText(4, QCoreApplication.translate("Dialog", u"Apr", None))
+        self.comboBox.setItemText(5, QCoreApplication.translate("Dialog", u"May", None))
+        self.comboBox.setItemText(6, QCoreApplication.translate("Dialog", u"Jun", None))
+        self.comboBox.setItemText(7, QCoreApplication.translate("Dialog", u"Jul", None))
+        self.comboBox.setItemText(8, QCoreApplication.translate("Dialog", u"Aug", None))
+        self.comboBox.setItemText(9, QCoreApplication.translate("Dialog", u"Sep", None))
+        self.comboBox.setItemText(10, QCoreApplication.translate("Dialog", u"Oct", None))
+        self.comboBox.setItemText(11, QCoreApplication.translate("Dialog", u"Nov", None))
+        self.comboBox.setItemText(12, QCoreApplication.translate("Dialog", u"Dec", None))
+
+    # retranslateUi
